@@ -9,7 +9,7 @@ const mediaCollection = defineCollection({
     image: image(),
     alt_text: z.string(),
     skin_line: z.string(),
-    media_type: z.enum(),
+    media_type: z.string(),
   }),
 });
 

@@ -1,0 +1,46 @@
+{
+  "$ref": "#/definitions/media",
+  "definitions": {
+    "media": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "artist": {
+          "type": "string"
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "image": {
+          "type": "string"
+        },
+        "alt_text": {
+          "type": "string"
+        },
+        "skin_line": {
+          "type": "string"
+        },
+        "media_type": {
+          "type": "string"
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "artist",
+        "source_url",
+        "image",
+        "alt_text",
+        "skin_line",
+        "media_type"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
