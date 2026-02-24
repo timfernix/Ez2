@@ -1,0 +1,13 @@
+{
+  "name": "ezreal-media-archive",
+  "version": "2.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && npx -y pagefind --site dist",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^4.0.0",
+    "pagefind": "^1.0.0"
+  }
+}

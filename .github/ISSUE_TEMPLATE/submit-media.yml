@@ -1,0 +1,25 @@
+name: Submit Media
+description: Add a new image or video to the archive.
+title: "[Media]: <Title>"
+body:
+  - type: input
+    id: artist
+    attributes:
+      label: Artist Name
+    validations:
+      required: true
+  - type: dropdown
+    id: media_type
+    attributes:
+      label: Media Type
+      options:
+        - Splash Art
+        - Concept Art
+        - Screenshot
+  - type: textarea
+    id: file_upload
+    attributes:
+      label: Upload Image
+      description: Drag and drop your image here!
+    validations:
+      required: true
