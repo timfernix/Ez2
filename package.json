@@ -3,7 +3,7 @@
   "version": "2.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && npx -y pagefind --site dist",
+    "build": "npx astro build && npx -y pagefind --site dist",
     "preview": "astro preview"
   },
   "dependencies": {
